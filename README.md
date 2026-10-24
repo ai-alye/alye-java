@@ -2,6 +2,8 @@
 
 # alye (Java)
 
+[Website](https://www.alye.ai) · [Docs](https://www.alye.ai/docs) · [LLM prices](https://www.alye.ai/models) · [Sign up free](https://app.alye.ai/register)
+
 Records every LLM call your Java services make: model, tokens, cost, latency, time to first token and errors. Wrap your OpenAI or Anthropic client, or add one listener to your LangChain4j models. Java 11+, no required dependencies.
 
 ## Install
