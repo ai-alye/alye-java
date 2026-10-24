@@ -78,7 +78,13 @@ mavenPublishing {
             }
         }
         scm {
-            url.set("https://www.alye.ai")
+            url.set("https://github.com/ai-alye/alye-java")
+            connection.set("scm:git:https://github.com/ai-alye/alye-java.git")
+            developerConnection.set("scm:git:ssh://git@github.com/ai-alye/alye-java.git")
+        }
+        issueManagement {
+            system.set("GitHub")
+            url.set("https://github.com/ai-alye/alye-java/issues")
         }
     }
 }
